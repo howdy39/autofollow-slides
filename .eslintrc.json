@@ -1,9 +1,7 @@
 {
   "env": {
     "es6": true,
-    "browser": true,
-    "jquery": true,
-    "webextensions": true
+    "browser": true
   },
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "rules": {

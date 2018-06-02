@@ -19,5 +19,5 @@
       "run_at": "document_end"
     }
   ],
-  "permissions": ["alarms", "tabs", "webNavigation"]
+  "permissions": []
 }

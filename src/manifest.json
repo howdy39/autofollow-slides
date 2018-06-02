@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "AutoFollow Slides",
+  "version": "0.0.1",
+  "description":
+    "Add a \"person tracking\" feature to Google Slides.It also supports Documents and Spreadsheets.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["autofollow-slides.js"],
+      "css": ["autofollow-slides.css"],
+      "matches": [
+        "https://docs.google.com/spreadsheets/*",
+        "https://docs.google.com/presentation/*",
+        "https://docs.google.com/document/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["alarms", "tabs", "webNavigation"]
+}

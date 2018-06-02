@@ -6,6 +6,6 @@ It also supports Documents and Spreadsheets.
 ## Usage
 
 1.  Open Google Slides
-2.  Double click on participant's face icon
+2.  Click on participant's face icon
 
 Docs and spreadsheets are the same steps.

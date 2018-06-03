@@ -10,7 +10,7 @@ It also supports Documents and Spreadsheets.
 
 1.  Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/autofollow-slides/lacmafbgkckjjbmonbnadompmlloillb)
 2.  Open Google Slides
-3.  Click on participant's face icon
+3.  Click on participant's face icon (Participants need more authority than editor)
 
 Docs and spreadsheets are the same steps.
 

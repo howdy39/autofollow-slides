@@ -14,7 +14,8 @@
   },
   "scripts": {
     "lint": "eslint src/js/*.js --fix",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "zip": "zip -r extension.zip src/"
   },
   "lint-staged": {
     "*.js": [
